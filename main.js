@@ -1,3 +1,5 @@
+require('marko/node-require').install();
+
 var series = require('async').series;
 var displayResults = require('./display-results');
 var viewEngine = require('view-engine');
